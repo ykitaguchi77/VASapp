@@ -178,23 +178,6 @@ struct ContentView: View {
                         .alert(isPresented: $showScore) {Alert(title: Text("VAS score：\(currentValue, specifier: "%.1f")"))}
                 }
                 
-                
-                
-//                HStack{
-//                    Button("Calibration") {
-//                        self.goCalibration.toggle()
-//                    }
-//                    .sheet(isPresented: $goCalibration) {
-//                        CalibrationView(profile: profile)
-//                    }
-//
-//                    Button("Show score"){
-//                        self.showScore = true
-//                    }
-//                    .alert(isPresented: $showScore) {
-//                        Alert(title: Text("VAS score：\(currentValue, specifier: "%.1f")"))
-//                    }
-//                }
             }
             .frame(width: geometry.size.width)
         }
