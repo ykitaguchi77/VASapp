@@ -163,7 +163,7 @@ struct ContentView: View {
                     
                     Button(action: {
                         self.showScore = true
-                        print("aaa")
+                
                         /*またはself.show.toggle() */
                     }) {
                         HStack{
